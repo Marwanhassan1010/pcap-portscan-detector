@@ -1,0 +1,30 @@
+[
+    {
+        "rule_id": "FAST_PORT_SCAN",
+        "source_ip": "192.168.56.10",
+        "destination_ip": "192.168.56.50",
+        "episode_number": 1,
+        "detected_at": "2026-10-12T17:27:42.202608+00:00",
+        "episode_start": "2026-10-12T17:27:42.100396+00:00",
+        "episode_end": "2026-10-12T17:27:42.225853+00:00",
+        "unique_ports": 10,
+        "destination_ports": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            27,
+            28,
+            29,
+            35,
+            36
+        ],
+        "window_seconds": 10,
+        "severity": "medium",
+        "classification": "potential_reconnaissance",
+        "scanner_name": "Authorized Lab Scanner",
+        "policy_reason": "approved_scanning_activity",
+        "status": "approved_activity"
+    }
+]
